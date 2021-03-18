@@ -3,7 +3,10 @@
 
 Hint: ls command
 
-2. Show your script on how many commas in the first line of new_deaths.csv:
+2. Delete blank lines in text
+Hint: sed -i '/^$/d'
+
+3. Show your script on how many commas in the first line of new_deaths.csv:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
@@ -14,7 +17,7 @@ C. wc -c
 or
 A. awk -F ',' '{print NF-1}'
 
-3. Show only mounted column from result of df:
+4. Show only mounted column from result of df:
 <pre>
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
@@ -30,10 +33,10 @@ Hints:
 A. reduce multiple spaces to a single space per line using "tr -s ' '"
 B. cut -d ' ' -f 6
 
-4. Convert minus numbers to positive numbers in csv file.
+5. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-5. Explain "history|grep wget"
+6. Explain "history|grep wget"
 
 </pre>
 
