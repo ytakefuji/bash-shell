@@ -115,4 +115,4 @@ dpkg -l:
 xargs: to read items from standard input as separated by blanks and execute a command once for each argument
 find:
 nslookup:
-
+</pre>
