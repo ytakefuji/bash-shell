@@ -1,13 +1,36 @@
 # problems
 1. Show your bash script on how many files and how many directories in the current directory respectively.
+Hint: ls command
+2. Show your script on how many commas in the first line of new_deaths.csv:
 
-2. Show your script on how many commas in the text:
-https://raw.githubusercontent.com/ytakefuji/ensemble-machine-learning/master/ice.csv
-
-3. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-4. Convert all spaces to a single space in every line.
+Hints: 
+A. head -1
+B. tr -cd ,
+C. wc -c
+or
+A. awk -F ',' '{print NF-1}'
+
+3. Show only mounted column from result of df 
+$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+rootfs         233465860 105665500 127800360  46% /
+none           233465860 105665500 127800360  46% /dev
+none           233465860 105665500 127800360  46% /run
+none           233465860 105665500 127800360  46% /run/lock
+none           233465860 105665500 127800360  46% /run/shm
+none           233465860 105665500 127800360  46% /run/user
+tmpfs          233465860 105665500 127800360  46% /sys/fs/cgroup
+C:\            233465860 105665500 127800360  46% /mnt/c
+Hints: 
+A. reduce multiple spaces to a single space per line using "tr -s ' '"
+B. cut -d ' ' -f 6
+
+4. Convert minus numbers to positive numbers in csv file.
+https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
+
+5. Convert all spaces to a single space in every line.
 
 
 # shell
@@ -36,8 +59,18 @@ ps: to provide information about the currently running processes
 mkdir: to make directory
 cat: to read and concatenate files and give their content as output
 sed: stream editor
+  sed -n '3,4p' <bs
+tr -s : to transform string or delete characters from the string
+  echo "my     is  432234" | tr -s ' '
+  my is 432234
+  echo "my username is 432234" | tr -cd ' a-z'
+  my username is 
+head -x: reads first x lines of the file
+  head -1 new_deaths.csv
 awk: a scripting language used for manipulating data and generating reports
+  head -1 new_deaths.csv |awk -F ',' '{print NF-1}'
 cut: a command for cutting out the sections from each line of files and writing the result to standard output
+  cut -d ' ' -f 6
 echo: to display line of text/string that are passed as an argument
 crontab -e: an editor creating cron jobs
 export DISPLAY=:0: to export a display to remote client
