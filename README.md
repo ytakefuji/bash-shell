@@ -78,6 +78,8 @@ awk: a scripting language used for manipulating data and generating reports
   head -1 new_deaths.csv |awk -F ',' '{print NF-1}'
 cut: a command for cutting out the sections from each line of files and writing the result to standard output
   cut -d ' ' -f 6
+</pre>
+<pre>
 echo: to display line of text/string that are passed as an argument
 crontab -e: an editor creating cron jobs
 export DISPLAY=:0: to export a display to remote client
