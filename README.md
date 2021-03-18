@@ -6,7 +6,8 @@ a default bash shell.
 Mac has a default zsh. zsh is similar to bash.
 
 In order to run shell, open terminal on your operating system.
-Whenever starting shell, terminal window will be opened with the following prompt:
+Whenever starting shell, terminal window will be opened with 
+the following prompt:
 </pre>
 <img src='wsl.png' width=260 height=66>
-
+<img src='cygwin.png' width=180 height=80>
