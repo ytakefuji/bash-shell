@@ -1,6 +1,8 @@
 # problems
 1. Show your bash script on how many files and how many directories in the current directory respectively.
+
 Hint: ls command
+
 2. Show your script on how many commas in the first line of new_deaths.csv:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
