@@ -14,7 +14,8 @@ C. wc -c
 or
 A. awk -F ',' '{print NF-1}'
 
-3. Show only mounted column from result of df 
+3. Show only mounted column from result of df:
+<pre>
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
 rootfs         233465860 105665500 127800360  46% /
@@ -33,7 +34,7 @@ B. cut -d ' ' -f 6
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
 5. Convert all spaces to a single space in every line.
-
+</pre>
 
 # shell
 <pre>
