@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_
 
 6. Explain "history|grep wget"
 
-7. Explain $  ls -d \.[a-z]|grep /
+7. Explain $  ls -d \.[a-z]*|grep /
 
 </pre>
 
