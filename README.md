@@ -8,5 +8,5 @@ Mac has a default zsh. zsh is similar to bash.
 In order to run shell, open terminal on your operating system.
 Whenever starting shell, terminal window will be opened with the following prompt:
 </pre>
-<img source='wsl.png' width=525 height=133>
+<img src='wsl.png' width=525 height=133>
 
