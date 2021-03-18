@@ -33,7 +33,8 @@ B. cut -d ' ' -f 6
 4. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-5. Convert all spaces to a single space in every line.
+5. Explain "history|grep wget"
+
 </pre>
 
 # shell
