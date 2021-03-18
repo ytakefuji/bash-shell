@@ -1,3 +1,8 @@
+# problems
+1. Show your bash script on how many files and how many directories in the current directory respectively.
+2. Show your script on how many commas in the text
+3. Convert minus numbers to positive numbers in csv file.
+
 # shell
 <pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
