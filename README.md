@@ -1,7 +1,14 @@
 # problems
 1. Show your bash script on how many files and how many directories in the current directory respectively.
-2. Show your script on how many commas in the text
+
+2. Show your script on how many commas in the text:
+https://raw.githubusercontent.com/ytakefuji/ensemble-machine-learning/master/ice.csv
+
 3. Convert minus numbers to positive numbers in csv file.
+https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
+
+4. Convert all spaces to a single space in every line.
+
 
 # shell
 <pre>
