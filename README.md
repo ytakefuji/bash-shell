@@ -17,7 +17,9 @@ Hints:
 A. head -1
 B. tr -cd ,
 C. wc -c
+
 or
+
 A. awk -F ',' '{print NF-1}'
 
 5. Show only mounted column from result of df:
