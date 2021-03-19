@@ -3,10 +3,13 @@
 
 Hint: ls command
 
-2. Delete blank lines in text
+2. "ls -lt" shows a list of detailed files in time order. Show the list in English instead of in Japanese.
+
+3. Delete blank lines in text
+
 Hint: sed -i '/^$/d'
 
-3. Show your script on how many commas in the first line of new_deaths.csv:
+4. Show your script on how many commas in the first line of new_deaths.csv:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
@@ -17,7 +20,7 @@ C. wc -c
 or
 A. awk -F ',' '{print NF-1}'
 
-4. Show only mounted column from result of df:
+5. Show only mounted column from result of df:
 <pre>
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
@@ -33,12 +36,12 @@ Hints:
 A. reduce multiple spaces to a single space per line using "tr -s ' '"
 B. cut -d ' ' -f 6
 
-5. Convert minus numbers to positive numbers in csv file.
+6. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-6. Explain "history|grep wget"
+7. Explain "history|grep wget"
 
-7. Explain $  ls -d \.[a-z]*|grep /
+8. Explain $  ls -d \.[a-z]*|grep /
 
 </pre>
 
