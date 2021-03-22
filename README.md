@@ -14,6 +14,7 @@ Hint: sed -i '/^$/d'
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
 Hints: 
+
 A. $ head -1
 
 B. $ tr -cd ,  or $ awk -F ',' '{print NF-1}'
