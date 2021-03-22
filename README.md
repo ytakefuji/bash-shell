@@ -1,4 +1,4 @@
-# practice questions for students
+# exercises for students
 1. Show your bash script on how many files and how many directories in the current directory respectively.
 
 Hint: ls command
