@@ -15,10 +15,12 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_
 
 Hints: 
 A. $ head -1
+
 B. $ tr -cd ,  or $ awk -F ',' '{print NF-1}'
+
 C. $ wc -c
 
-5. Show only mounted column from result of df:
+5. Show only "Mounted on" column from result of df:
 <pre>
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
