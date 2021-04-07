@@ -42,7 +42,12 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_
 
 7. Explain "history|grep wget"
 
-8. Explain $  ls -d \.[a-z]*|grep /
+8. Explain $  ls -d \.[a-z]* |grep /
+
+9. Create a list of unique IPs from /var/log/apache2/access.log
+Hints: awk '{print $1}'
+or
+Hints: cut -d '-' -f 1
 
 </pre>
 
