@@ -49,6 +49,10 @@ Hints: awk '{print $1}'
 or
 Hints: cut -d '-' -f 1
 
+10. How to decrypt kwords.pptx
+
+$ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
+
 </pre>
 
 # shell
