@@ -48,6 +48,10 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_
 Hints: awk '{print $1}'
 or
 Hints: cut -d '-' -f 1
+delimitter "-d" is a single character.
+
+Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
+
 
 10. How to decrypt kwords.pptx
 
