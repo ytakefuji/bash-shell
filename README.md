@@ -1,5 +1,6 @@
 # exercises for students
-0. What is a character, a string?
+0. What is a single character, a string?
+
 1. Show your bash script on how many files and how many directories in the current directory respectively.
 
 Hint: ls command
