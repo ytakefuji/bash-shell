@@ -65,6 +65,8 @@ $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 
 13.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
 
+14. counting the number of unique values
+$ cat countries|sort|uniq -c|sort -nr
 </pre>
 
 # shell
