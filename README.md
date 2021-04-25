@@ -54,8 +54,11 @@ Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 
 
 10. How to decrypt kwords.pptx
-
 $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
+
+11. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
+
+12.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
 
 </pre>
 
