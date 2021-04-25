@@ -8,8 +8,11 @@ Hint: ls command
 3. Delete blank lines in text
 
 Hint: sed -i '/^$/d'
+4. String replace using sed
+$ echo 'i am a good boy'|sed 's/good/bad/g'
+i am a bad boy
 
-4. Show your script on how many commas in the first line of new_deaths.csv:
+5. Show your script on how many commas in the first line of new_deaths.csv:
 
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
@@ -21,7 +24,7 @@ B. $ tr -cd ,  or $ awk -F ',' '{print NF-1}'
 
 C. $ wc -c
 
-5. Show only "Mounted on" column from result of df:
+6. Show only "Mounted on" column from result of df:
 <pre>
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
@@ -37,14 +40,14 @@ Hints:
 A. reduce multiple spaces to a single space per line using "tr -s ' '"
 B. cut -d ' ' -f 6
 
-6. Convert minus numbers to positive numbers in csv file.
+7. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
-7. Explain "history|grep wget"
+8. Explain "history|grep wget"
 
-8. Explain $  ls -d \.[a-z]* |grep /
+9. Explain $  ls -d \.[a-z]* |grep /
 
-9. Create a list of unique IPs from /var/log/apache2/access.log
+10. Create a list of unique IPs from /var/log/apache2/access.log
 Hints: awk '{print $1}'
 or
 Hints: cut -d '-' -f 1
@@ -53,12 +56,12 @@ delimitter "-d" is a single character.
 Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 
 
-10. How to decrypt kwords.pptx
+11. How to decrypt kwords.pptx
 $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 
-11. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
+12. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
 
-12.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
+13.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
 
 </pre>
 
