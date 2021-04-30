@@ -14,6 +14,7 @@ Hint: sed -i '/^$/d'
 4. String replace using sed
 
 $ echo 'i am a good boy'|sed 's/good/bad/g'
+
 i am a bad boy
 
 5. Show your script on how many commas in the first line of new_deaths.csv:
