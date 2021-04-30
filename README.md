@@ -10,7 +10,9 @@ Hint: ls command
 3. Delete blank lines in text
 
 Hint: sed -i '/^$/d'
+
 4. String replace using sed
+
 $ echo 'i am a good boy'|sed 's/good/bad/g'
 i am a bad boy
 
