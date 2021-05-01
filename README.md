@@ -70,6 +70,9 @@ $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 
 14. counting the number of unique values
 $ cat countries|sort|uniq -c|sort -nr
+
+15. check /var/log/auth.log or /var/log/auth.log.1 and make a table of the number of attacks by country in order of frequency of attacks.
+
 </pre>
 
 # shell
