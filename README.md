@@ -77,7 +77,7 @@ A. python ip2city.py
 B. whois
 C. curl ipinfo.io
 D. curl http://ipwhois.app/json/
-
+E. curl https://ipapi.co/101.230.248.162/json
 16. How to silence output in a Bash?
 Hint: 2>/dev/null
 $ bash country3.sh >ttt 2>/dev/null
