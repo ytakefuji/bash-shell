@@ -72,12 +72,12 @@ $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 $ cat countries|sort|uniq -c|sort -nr
 
 15. check /var/log/auth.log or /var/log/auth.log.1 and make a table of the number of attacks by country in order of frequency of attacks.
-Hints: 
-A. python ip2city.py  
-B. whois
-C. curl ipinfo.io
-D. curl http://ipwhois.app/json/
-E. curl https://ipapi.co/101.230.248.162/json
+Hints: x.y.z.w is an IP address.
+A. python ip2city.py  x.y.z.w
+B. whois x.y.z.w
+C. curl ipinfo.io/x.y.z.w
+D. curl http://ipwhois.app/json/x.y.z.w
+E. curl https://ipapi.co/x.y.z.w/json
 
 16. How to silence output in a Bash?
 Hint: 2>/dev/null
