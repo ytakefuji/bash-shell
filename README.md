@@ -74,9 +74,8 @@ $ cat countries|sort|uniq -c|sort -nr
 15. check /var/log/auth.log or /var/log/auth.log.1 and make a table of the number of attacks by country in order of frequency of attacks.
 
 16. How to silence output in a Bash?
-
 Hint: 2>/dev/null
-
+$ bash country3.sh >ttt 2>/dev/null
 </pre>
 
 # shell
