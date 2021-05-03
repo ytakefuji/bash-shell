@@ -65,14 +65,17 @@ Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 $ openssl end -d -aes356 -in comm.pptx >commands.pptx
 
-12. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
+12. How to encode a file
+$ openssl enc -e -in commands.pptx >comm.pptx
 
-13.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
+13. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
 
-14. counting the number of unique values
+14.  cat /var/log/auth.log|grep Failed|awk -F'from' '{print $2}'|cut -d ' ' -f 2|sort|uniq
+
+15. counting the number of unique values
 $ cat countries|sort|uniq -c|sort -nr
 
-15. check /var/log/auth.log or /var/log/auth.log.1 and make a table of the number of attacks by country in order of frequency of attacks.
+16. check /var/log/auth.log or /var/log/auth.log.1 and make a table of the number of attacks by country in order of frequency of attacks.
 Hints: x.y.z.w is an IP address.
 A. python ip2city.py  x.y.z.w
 B. whois x.y.z.w
@@ -80,7 +83,7 @@ C. curl ipinfo.io/x.y.z.w
 D. curl http://ipwhois.app/json/x.y.z.w
 E. curl https://ipapi.co/x.y.z.w/json
 
-16. How to silence output in a Bash?
+17. How to silence output in a Bash?
 Hint: 2>/dev/null
 $ bash country3.sh >ttt 2>/dev/null
 </pre>
