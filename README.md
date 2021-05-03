@@ -1,4 +1,4 @@
-# exercises for students in Data Science of Musashino University
+# Exercises for students in Musashino University
 0. What is a single character, a string?
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
