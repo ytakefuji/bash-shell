@@ -60,7 +60,6 @@ delimitter "-d" is a single character.
 
 Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 
-
 11. How to decrypt kwords.pptx
 $ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
 $ openssl end -d -aes356 -in comm.pptx >commands.pptx
