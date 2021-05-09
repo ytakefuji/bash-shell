@@ -1,4 +1,11 @@
 # Exercises for DS students in Musashino University
+<pre>
+comm.pptx: basic bash commands
+kwords.pptx: keywords search basic
+strength_conclusion: how to make strong statements as a data scientist
+They were all encrypted.
+</pre>
+
 0. What is a single character, a string?
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
