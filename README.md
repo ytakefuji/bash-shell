@@ -94,7 +94,7 @@ Hint: 2>/dev/null
 $ bash country3.sh >ttt 2>/dev/null
 </pre>
 
-# bash shell 
+# bash shell or zsh
 <pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
 WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) have 
