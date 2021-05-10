@@ -3,6 +3,7 @@
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic
 strength_conclusion.docx: how to make strong statements as a data scientist
+deduct_induct.pptx: reasoning for data scientist
 They were all encrypted.
 </pre>
 
