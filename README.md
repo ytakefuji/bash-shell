@@ -2,7 +2,7 @@
 <pre>
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic
-strength_conclusion: how to make strong statements as a data scientist
+strength_conclusion.docx: how to make strong statements as a data scientist
 They were all encrypted.
 </pre>
 
