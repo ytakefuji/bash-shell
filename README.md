@@ -1,8 +1,8 @@
 # Exercises for DS students in Musashino University
 <pre>
 comm.pptx: basic bash commands
-kwords.pptx: keywords search basic
-strength_conclusion.docx: how to make strong statements as a data scientist
+kwords.pptx: keywords search basic methods
+strength_conclusion.docx: how to make strong statements using data
 deduct_induct.pptx: reasoning for data scientist
 They were all encrypted.
 </pre>
