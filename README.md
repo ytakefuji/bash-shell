@@ -5,6 +5,7 @@ kwords.pptx: keywords search basic methods
 strength_conclusion.docx: how to make strong statements using data
 deduct_induct.pptx: reasoning for data scientist
 They were all encrypted. Use openssl command for decrypting.
+openssl command can be automatically installed by miniconda.
 </pre>
 
 0. What is a single character, a string?
