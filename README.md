@@ -168,6 +168,7 @@ rm:
 wc:
 grep -rn:
 dpkg -l:
+gzip -d file.gz: expanding .gz file 
 xargs: to read items from standard input as separated by blanks and execute a command once for each argument
 find:
 nslookup:
