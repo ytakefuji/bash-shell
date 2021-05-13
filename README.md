@@ -1,4 +1,4 @@
-# Exercises for DS students in Musashino University
+# Exercises for DS students in Musashino University in Japan
 <pre>
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic methods
