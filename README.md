@@ -4,6 +4,7 @@ comm.pptx: basic bash commands
 kwords.pptx: keywords search basic methods
 strength_conclusion.docx: how to make strong statements using data
 deduct_induct.pptx: reasoning for data scientist
+twitterEncrypted.docx: twitter search
 They were all encrypted. Use openssl command for decrypting.
 openssl command can be automatically installed by miniconda.
 </pre>
