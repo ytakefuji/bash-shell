@@ -1,4 +1,4 @@
-# bash shell for preprocessing in machine leaning
+# bash shell for preprocessing in machine leaning for Musashino University
 <pre>
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic methods
