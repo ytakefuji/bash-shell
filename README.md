@@ -38,9 +38,10 @@ Hints:
 
 A. $ head -1
 
-B. $ tr -cd ,  or $ awk -F ',' '{print NF-1}'
-
-C. $ wc -c
+B. $ tr -cd ,
+or $ awk -F ',' '{print NF-1}'
+or $ grep -o \, file  
+C. $ wc -c or wc
 
 6. Show only "Mounted on" column from result of df:
 <pre>
