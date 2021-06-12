@@ -1,6 +1,7 @@
 # preprocessing using bash for machine leaning
 
-This repository is for novice how to use bash (zsh) commands for machine learning preprocessing.
+This repository is for novice how to use terminal commands 
+(bash or zsh) for machine learning preprocessing.
 <pre>
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic methods
