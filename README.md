@@ -103,6 +103,7 @@ $ bash country3.sh >ttt 2>/dev/null
 </pre>
 
 # bash shell or zsh
+
 <pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
 WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) have 
@@ -117,7 +118,8 @@ the following prompt:
 <img src='cygwin.png' width=180 height=80>
 <pre>
 We can run any line commands (bash, apt, Python, Firefox,...).
-The followings are basic bash commands:
+You must exercise yourself with the following commands.
+The followings are basic bash or zsh commands:
 
 cd: to change directory
 ls: to list files or directories (folders)
