@@ -11,23 +11,20 @@ twitterEncrypted.docx: twitter search
 They were all encrypted. Use openssl command for decrypting.
 openssl command can be automatically installed by miniconda.
 </pre>
+
 <pre>
 0. What is a single character, a string?
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
-
 Hint: ls command
 
 2. "ls -lt" shows a list of detailed files in time order. Show the list in English instead of in Japanese.
 
 3. Delete blank lines in text
-
 Hint: sed -i '/^$/d'
 
 4. String replace using sed
-
 $ echo 'i am a good boy'|sed 's/good/bad/g'
-
 i am a bad boy
 
 5. Show your script on how many commas in the first line of new_deaths.csv:
@@ -35,9 +32,7 @@ i am a bad boy
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
 Hints: 
-
 A. $ head -1
-
 B. $ cat file|tr -cd ,
 or $ cat file|awk -F ',' '{print NF-1}'
 or $ grep -o \, file  
@@ -45,7 +40,6 @@ or $ cat file|sed 's/[^,]//g'
 C. $ wc -c or wc
 
 6. Show only "Mounted on" column from result of df:
-
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
 rootfs         233465860 105665500 127800360  46% /
@@ -72,7 +66,6 @@ Hints: awk '{print $1}'
 or
 Hints: cut -d '-' -f 1
 delimitter "-d" is a single character.
-
 Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 
 11. How to decrypt kwords.pptx
@@ -122,6 +115,7 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 
+
 # bash shell or zsh
 
 <pre>
@@ -134,8 +128,10 @@ In order to run shell, open terminal on your operating system.
 Whenever starting shell, terminal window will be opened with 
 the following prompt:
 </pre>
+
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
+
 <pre>
 We can run any line commands (bash, apt, Python, Firefox,...).
 You must exercise yourself with the following commands.
