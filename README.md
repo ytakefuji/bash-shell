@@ -14,7 +14,7 @@ openssl command can be automatically installed by miniconda.
 
 
 # Exercises for students
-<head>
+
 You should practice the following questions.
 
 <pre>
@@ -120,11 +120,10 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
-</p>
 </head>
 
 # bash shell or zsh
-
+<p>
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 <pre>
@@ -138,7 +137,7 @@ Whenever starting shell, terminal window will be opened with
 the following prompt:
 
 </pre>
-
+</p>
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
