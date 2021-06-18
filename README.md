@@ -136,10 +136,13 @@ the following prompt:
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
+<pre>
 
-# List of commands
+</pre>
 
-We can run any line commands (bash, apt, Python, Firefox,...). You must exercise yourself with the following commands. The followings are basic bash or zsh command:
+# List of minimum commands
+
+We can run any line commands (bash, apt, Python, Firefox,...). You must exercise yourself with the following commands. The followings are basic bash or zsh commands:
 
 <pre>
 
@@ -160,16 +163,17 @@ mkdir: to make directory
 cat: to read and concatenate files and give their content as output
 
 sed: stream editor
-  sed -n '3,4p' <bs
+  sed -n '3,4p' \<bs
 
 tr -s : to transform string or delete characters from the string
   echo "my     is  432234" | tr -s ' '
   my is 432234
   echo "my username is 432234" | tr -cd ' a-z'
   my username is 
-  
+
 head -x: reads first x lines of the file
   head -1 new_deaths.csv
+
 awk: a scripting language used for manipulating data and generating reports
   head -1 new_deaths.csv |awk -F ',' '{print NF-1}'
   
