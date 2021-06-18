@@ -14,7 +14,7 @@ openssl command can be automatically installed by miniconda.
 
 
 # Exercises for students
-
+<p>
 You should practice the following questions.
 
 <pre>
@@ -120,6 +120,7 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
+</p>
 
 
 # bash shell or zsh
