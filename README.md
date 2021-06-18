@@ -67,6 +67,8 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_
 
 9. Explain $  ls -d \.[a-z]* |grep /
 
+</pre>
+<pre>
 10. Create a list of unique IPs from /var/log/apache2/access.log
 Hints: awk '{print $1}'
 or
@@ -119,10 +121,8 @@ sed 's/[^,]//g'
 E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 </pre>
-<pre>
------------------------------------------------------------------------------------------------------------------------
+
 </pre>
-</p>
 
 # bash shell or zsh
 
@@ -265,5 +265,5 @@ while:
 xargs: to read items from standard input as separated by blanks 
        and execute a command once for each argument
 </pre>
-</p>
+
 
