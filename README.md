@@ -142,7 +142,9 @@ the following prompt:
 
 # List of minimum commands
 
-We can run any line commands (bash, apt, Python, Firefox,...). You must exercise yourself with the following commands. The followings are basic bash or zsh commands:
+We can run any line commands (bash, apt, Python, Firefox,...). 
+You must exercise yourself with the following commands. The followings 
+are basic bash or zsh commands:
 
 <pre>
 apt cache search:
