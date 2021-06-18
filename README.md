@@ -16,7 +16,6 @@ openssl command can be automatically installed by miniconda.
 # Exercises for students
 
 You should practice the following questions.
-<body>
 <pre>
 
 0. What is a single character, a string?
@@ -121,7 +120,6 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 </p>
-</body>
 
 # bash shell or zsh
 
