@@ -213,7 +213,9 @@ scp:
 
 sed: stream editor
   sed -n '3,4p' <bs
+</pre>
 
+<pre>
 sort:
 
 ssh:
@@ -249,7 +251,6 @@ wget:
 while:
 
 xargs: to read items from standard input as separated by blanks and execute a command once for each argument
-
 
 </pre>
 
