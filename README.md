@@ -14,7 +14,7 @@ openssl command can be automatically installed by miniconda.
 
 # Exercises for students
 You should practice the following questions.
-<p>
+
 <pre>
 
 0. What is a single character, a string?
@@ -119,11 +119,11 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
-</p>
+
 
 
 # bash shell or zsh
-
+<p>
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 <pre>
@@ -141,9 +141,10 @@ the following prompt:
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
+</p>
 
 # List of minimum commands
-
+<p>
 We can run any line commands (bash, apt, Python, Firefox,...). 
 You must exercise yourself with the following commands. The followings 
 are basic bash or zsh commands:
@@ -266,4 +267,4 @@ xargs: to read items from standard input as separated by blanks
        and execute a command once for each argument
 
 </pre>
-
+</p>
