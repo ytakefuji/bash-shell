@@ -11,7 +11,7 @@ twitterEncrypted.docx: twitter search
 They were all encrypted. Use openssl command for decrypting.
 openssl command can be automatically installed by miniconda.
 </pre>
-
+<pre>
 0. What is a single character, a string?
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
@@ -45,7 +45,7 @@ or $ cat file|sed 's/[^,]//g'
 C. $ wc -c or wc
 
 6. Show only "Mounted on" column from result of df:
-<pre>
+
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
 rootfs         233465860 105665500 127800360  46% /
