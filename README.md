@@ -227,9 +227,7 @@ scp:
 sed: stream editor
   sed -n '3,4p' text
   sed '1,$s/  */ /g' text
-</pre>
 
-<pre>
 sort:
 
 ssh:
