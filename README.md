@@ -117,9 +117,9 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 
-
+<b>
 # bash shell or zsh
-
+<b>
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 
@@ -136,9 +136,7 @@ the following prompt:
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
-<pre>
-
-</pre>
+<p>
 
 # List of minimum commands
 
@@ -163,7 +161,8 @@ mkdir: to make directory
 cat: to read and concatenate files and give their content as output
 
 sed: stream editor
-  sed -n '3,4p' \<bs
+  sed -n '3,4p' <bs
+
 
 tr -s : to transform string or delete characters from the string
   echo "my     is  432234" | tr -s ' '
@@ -257,3 +256,4 @@ find:
 nslookup:
 
 </pre>
+
