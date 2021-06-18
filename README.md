@@ -14,10 +14,11 @@ openssl command can be automatically installed by miniconda.
 
 # Exercises for students
 You should practice the following questions.
+<p>
 <pre>
-<b>
+
 0. What is a single character, a string?
-<b>
+
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
 Hint: ls command
@@ -117,9 +118,8 @@ sed 's/[^,]//g'
 E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
-
 </pre>
-
+</p>
 
 
 # bash shell or zsh
