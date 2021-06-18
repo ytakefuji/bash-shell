@@ -120,9 +120,8 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
-</p>
 
-<h>
+</p>
 
 # bash shell or zsh
 <p>
@@ -270,4 +269,4 @@ xargs: to read items from standard input as separated by blanks
 
 </pre>
 </p>
-</h>
+
