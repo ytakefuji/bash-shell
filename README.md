@@ -119,11 +119,12 @@ sed 's/[^,]//g'
 E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
-</pre>
 
+</pre>
 
 </p>
 
+<--------------------------------------------------->
 # bash shell or zsh
 
 bash or zsh is very important for running a variety of programs. 
