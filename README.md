@@ -117,8 +117,6 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 
-# bash or zsh
-
 
 # bash shell or zsh
 
@@ -161,6 +159,10 @@ cat: to read and concatenate files and give their content as output
 
 sed: stream editor
   sed -n '3,4p' <bs
+
+</pre>
+
+<pre>
 
 tr -s : to transform string or delete characters from the string
   echo "my     is  432234" | tr -s ' '
