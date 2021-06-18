@@ -125,7 +125,7 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 
 # bash shell or zsh
-
+<p>
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 <pre>
@@ -144,6 +144,7 @@ the following prompt:
 <img src='cygwin.png' width=180 height=80>
 
 </p>
+
 
 # List of minimum commands
 <p>
@@ -265,7 +266,6 @@ while:
 
 xargs: to read items from standard input as separated by blanks 
        and execute a command once for each argument
-
 </pre>
 </p>
 
