@@ -148,7 +148,7 @@ the following prompt:
 We can run any line commands (bash, apt, Python, Firefox,...). 
 You must exercise yourself with the following commands. The followings 
 are basic bash or zsh commands:
-<p>
+
 <pre>
 apt cache search:
 
