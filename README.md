@@ -122,10 +122,10 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 </pre>
 </p>
 
-<p>
-</p>
+
+
 # bash shell or zsh
-<p>
+
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 <pre>
