@@ -101,7 +101,23 @@ E. curl https://ipapi.co/x.y.z.w/json
 
 17. How to silence output in a Bash?
 Hint: 2>/dev/null
-$ bash country3.sh >ttt 2>/dev/null
+$ bash country3.sh >ttt 2>/dev/null 
+
+18. Count the number of commas in text.
+Hints: 
+$ cat text
+South Korea,India,Brazil,France,New Zealand,Taiwan,Sweden,Japan,United States,Canada,United Kingdom,Israel
+A.
+grep -o \, text
+wc -l
+B.
+cat text|tr -cd , 
+wc -c
+C.
+awk -F "," '{print NF-1}' text
+D.
+sed 's/[^,]//g'
+
 </pre>
 
 # bash shell or zsh
