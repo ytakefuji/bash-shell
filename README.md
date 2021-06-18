@@ -15,7 +15,9 @@ openssl command can be automatically installed by miniconda.
 # Exercises for students
 You should practice the following questions.
 <pre>
+<b>
 0. What is a single character, a string?
+<b>
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
 Hint: ls command
