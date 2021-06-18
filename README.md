@@ -14,7 +14,6 @@ openssl command can be automatically installed by miniconda.
 
 # Exercises for students
 You should practice the following questions.
-
 <pre>
 0. What is a single character, a string?
 
@@ -115,7 +114,9 @@ D.
 sed 's/[^,]//g'
 E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
+
 </pre>
+
 
 # bash shell or zsh
 
@@ -134,6 +135,8 @@ the following prompt:
 
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
+
+# List of commands
 
 <pre>
 We can run any line commands (bash, apt, Python, Firefox,...).
