@@ -140,29 +140,95 @@ the following prompt:
 We can run any line commands (bash, apt, Python, Firefox,...). You must exercise yourself with the following commands. The followings are basic bash or zsh commands:
 
 <pre>
+apt cache search:
+
+awk: a scripting language used for manipulating data and generating reports
+  head -1 new_deaths.csv |awk -F ',' '{print NF-1}'
+
+bc:
+
+cat: to read and concatenate files and give their content as output
 
 cd: to change directory
 
+cmake:
+
+crontab -e: an editor creating cron jobs
+
+cut: a command for cutting out the sections from each line of files and writing the result to standard output
+  cut -d ' ' -f 6
+
+df -h: to display information related to file systems about total space and available space
+
+dpkg -l:
+
+echo: to display line of text/string that are passed as an argument
+
+expect:
+
+export DISPLAY=:0: to export a display to remote client
+
+find:
+
+gcc:
+
+grep -rn: grep -o 
+
+gzip -d file.gz: expanding .gz file 
+
+hcitool scan:
+
+head -x: reads first x lines of the file
+  head -1 new_deaths.csv
+
+ifconfig:
+
+iwconfig:
+
+kill -9:
+
 ls: to list files or directories (folders)
 
-pwd: to print working directory
-
-touch: to create a file
-
-vi: screen editor 
-
-ps: to provide information about the currently running processes 
+make:
 
 mkdir: to make directory
 
-cat: to read and concatenate files and give their content as output
+nmap:
+
+nslookup:
+
+ntp:
+
+openssl:
+
+pkill –f xxx:
+
+ps: to provide information about the currently running processes 
+
+pwd: to print working directory
+
+rm:
+
+scp:
 
 sed: stream editor
   sed -n '3,4p' <bs
 
-</pre>
+sort:
 
-<pre>
+ssh:
+  ssh -Y
+  
+sshfs:
+
+sudo apt install:
+
+tar xvf xxx.tar:
+  tar cvf xxx.tar dir
+
+top:
+
+touch: to create a file
 
 tr -s : to transform string or delete characters from the string
   echo "my     is  432234" | tr -s ' '
@@ -170,90 +236,20 @@ tr -s : to transform string or delete characters from the string
   echo "my username is 432234" | tr -cd ' a-z'
   my username is 
 
-head -x: reads first x lines of the file
-  head -1 new_deaths.csv
-
-awk: a scripting language used for manipulating data and generating reports
-  head -1 new_deaths.csv |awk -F ',' '{print NF-1}'
-  
-cut: a command for cutting out the sections from each line of files and writing the result to standard output
-  cut -d ' ' -f 6
-
-echo: to display line of text/string that are passed as an argument
-
-crontab -e: an editor creating cron jobs
-
-export DISPLAY=:0: to export a display to remote client
-
-df -h: to display information related to file systems about total space and available space
-
 uniq: to report or filter out repeated lines in a file
-
-ssh:
-
-ifconfig:
-
-iwconfig:
-
-wget:
-
-sudo apt install:
-
-apt cache search:
-
-openssl:
-
-tar xvf xxx.tar:
-
-tar cvf xxx.tar dir:
 
 unzip:
 
-make:
-
-top:
-
-gcc:
-
-cmake:
-
-hcitool scan:
-
-scp:
-
-bc:
-
-pkill –f xxx:
-
-kill -9:
-
-sshfs:
-
-expect:
-
-ntp:
-
-sort:
-
-nmap:
-
-while:
-
-rm:
+vi: screen editor 
 
 wc:
 
-grep -rn: grep -o 
+wget:
 
-dpkg -l:
-
-gzip -d file.gz: expanding .gz file 
+while:
 
 xargs: to read items from standard input as separated by blanks and execute a command once for each argument
 
-find:
-
-nslookup:
 
 </pre>
 
