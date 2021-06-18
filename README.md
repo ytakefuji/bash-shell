@@ -12,6 +12,9 @@ They were all encrypted. Use openssl command for decrypting.
 openssl command can be automatically installed by miniconda.
 </pre>
 
+# Exercises for students
+You should practice the following questions.
+
 <pre>
 0. What is a single character, a string?
 
@@ -114,8 +117,8 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 </pre>
 
-
 # bash shell or zsh
+
 bash or zsh is very important for running a variety of programs. You should fill every command described in this list.
 
 <pre>
