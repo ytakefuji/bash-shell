@@ -124,14 +124,17 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
-
+<pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
-WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) have a default bash shell.
+WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) 
+have a default bash shell.
 Mac has a default zsh. zsh is similar to bash.
 
 In order to run shell, open terminal on your operating system.
 Whenever starting shell, terminal window will be opened with 
 the following prompt:
+
+</pre>
 
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
@@ -157,10 +160,12 @@ cmake:
 
 crontab -e: an editor creating cron jobs
 
-cut: a command for cutting out the sections from each line of files and writing the result to standard output
+cut: a command for cutting out the sections from each line of files 
+     and writing the result to standard output
   cut -d ' ' -f 6
 
-df -h: to display information related to file systems about total space and available space
+df -h: to display information related to file systems about total 
+       space and available space
 
 dpkg -l:
 
@@ -253,7 +258,8 @@ wget:
 
 while:
 
-xargs: to read items from standard input as separated by blanks and execute a command once for each argument
+xargs: to read items from standard input as separated by blanks 
+       and execute a command once for each argument
 
 </pre>
 
