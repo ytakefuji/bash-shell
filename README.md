@@ -117,13 +117,14 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 
-<b>
+# bash or zsh
+
+
 # bash shell or zsh
-<b>
+
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
 
-<pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
 WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) have a default bash shell.
 Mac has a default zsh. zsh is similar to bash.
@@ -131,12 +132,10 @@ Mac has a default zsh. zsh is similar to bash.
 In order to run shell, open terminal on your operating system.
 Whenever starting shell, terminal window will be opened with 
 the following prompt:
-</pre>
 
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
-<p>
 
 # List of minimum commands
 
@@ -162,7 +161,6 @@ cat: to read and concatenate files and give their content as output
 
 sed: stream editor
   sed -n '3,4p' <bs
-
 
 tr -s : to transform string or delete characters from the string
   echo "my     is  432234" | tr -s ' '
