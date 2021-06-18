@@ -1,7 +1,7 @@
 # preprocessing using bash for machine leaning
 
 This repository is for novice how to use terminal commands 
-(bash or zsh) for machine learning preprocessing.
+(bash or zsh) for machine learning preprocessing and data manipulations.
 <pre>
 comm.pptx: basic bash commands
 kwords.pptx: keywords search basic methods
