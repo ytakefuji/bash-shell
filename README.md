@@ -59,8 +59,7 @@ C:\            233465860 105665500 127800360  46% /mnt/c
 Hints: 
 A. reduce multiple spaces to a single space per line using "tr -s ' '"
 B. cut -d ' ' -f 6
-</pre>
-<pre>
+
 7. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
@@ -120,7 +119,9 @@ sed 's/[^,]//g'
 E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 </pre>
-</p>
+<pre>
+-----------------------------------------------------------------------------------------------------------------------
+</pre>
 </p>
 
 # bash shell or zsh
