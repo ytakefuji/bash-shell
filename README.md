@@ -1,5 +1,5 @@
 # preprocessing using bash for machine leaning
-<p>
+
 This repository is for novice how to use terminal commands 
 (bash or zsh) for machine learning preprocessing and data manipulations.
 <pre>
@@ -11,16 +11,15 @@ twitterEncrypted.docx: twitter search
 They were all encrypted. Use openssl command for decrypting.
 openssl command can be automatically installed by miniconda.
 </pre>
-</p>
+
 
 # Exercises for students
-<p>
+
 You should practice the following questions.
 
 <pre>
 
 0. What is a single character, a string?
-
 
 1. Show your bash script on how many files and how many directories in the current directory respectively.
 Hint: ls command
@@ -121,7 +120,6 @@ E.
 i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
-</p>
 
 
 # bash shell or zsh
