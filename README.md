@@ -117,6 +117,8 @@ C.
 awk -F "," '{print NF-1}' text
 D.
 sed 's/[^,]//g'
+E.
+i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 </pre>
 
