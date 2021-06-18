@@ -116,6 +116,7 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 
 # bash shell or zsh
+bash or zsh is very important for running a variety of programs. You should fill every command described in this list.
 
 <pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
