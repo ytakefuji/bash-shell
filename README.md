@@ -59,7 +59,8 @@ C:\            233465860 105665500 127800360  46% /mnt/c
 Hints: 
 A. reduce multiple spaces to a single space per line using "tr -s ' '"
 B. cut -d ' ' -f 6
-
+</pre>
+<pre>
 7. Convert minus numbers to positive numbers in csv file.
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv
 
@@ -126,6 +127,7 @@ i=$(sed 's/,/\n/g' <text|wc -l);((i-=1));echo $i
 
 bash or zsh is very important for running a variety of programs. 
 You should fill every command described in this list.
+
 <pre>
 Operating systems including Windows, Mac, and Linux have a default shell.
 WSL (Windows Subsystem for Linux) and Linux (Ubuntu, Debian,...) 
@@ -140,15 +142,13 @@ the following prompt:
 <img src='wsl.png' width=260 height=66>
 <img src='cygwin.png' width=180 height=80>
 
-</p>
-</p>
 
 # List of minimum commands
 
 We can run any line commands (bash, apt, Python, Firefox,...). 
 You must exercise yourself with the following commands. The followings 
 are basic bash or zsh commands:
-
+<p>
 <pre>
 apt cache search:
 
