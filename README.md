@@ -5,7 +5,7 @@ This repository is for novice programmers how to use terminal commands
 <pre>
 commands.pptx.crypted: basic bash commands
 keywords.pptx.crypted: keywords search basic methods
-strength_conclusion.docx: how to make strong statements using data
+strength.docx.crpyted: how to make strong statements using data
 deduct_induct.pptx.crypted: reasoning for data scientist
 twitterEncrypted.docx: twitter search
 They were all encrypted. Use openssl command for decrypting.
