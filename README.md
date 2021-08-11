@@ -4,7 +4,7 @@ This repository is for novice programmers how to use terminal commands
 (bash or zsh) for machine learning preprocessing and data manipulations.
 <pre>
 commands.pptx.crypted: basic bash commands
-kwords.pptx: keywords search basic methods
+keywords.pptx.crypted: keywords search basic methods
 strength_conclusion.docx: how to make strong statements using data
 deduct_induct.pptx.crypted: reasoning for data scientist
 twitterEncrypted.docx: twitter search
@@ -75,14 +75,14 @@ Hints: cut -d '-' -f 1
 delimitter "-d" is a single character.
 Hints: awk -F 'XXX' is equivalent to multiple characters as delimitter.
 
-11. How to decrypt kwords.pptx
-$ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx
+11. How to decrypt keywords.pptx.crypted file.
+$ openssl enc -d -aes256 -in keywords.pptx.crypted >keywords.pptx
 or
-$ openssl enc -d -aes256 -in kwords.pptx >keywords.pptx -md sha256
-$ openssl end -d -aes356 -in comm.pptx >commands.pptx
+$ openssl enc -d -aes256 -in keywords.pptx.crypted >keywords.pptx -md sha256
+
 
 12. How to encode a file
-$ openssl enc -e -in commands.pptx >comm.pptx
+$ openssl enc -e -aes256 -in commands.pptx >comm.pptx
 
 13. grep Failed auth.log|cut -d ' ' -f 11|grep  '\.'|sort|uni
 
